@@ -1,0 +1,17 @@
+PS tech
+a. sum of range of query in array
+
+1. https://leetcode.com/problems/find-pivot-index/
+
+Carry forward
+b. ag pair
+
+2. https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/description/
+
+Sliding Window
+c. print all subarr of length k
+
+3. https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/
+
+
+add -> https://leetcode.com/problems/rotate-image/

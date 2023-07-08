@@ -1,0 +1,193 @@
+1. Problem Description
+Given an array A. You have some integers given in the array B.
+For the i-th number, find the frequency of B[i] in the array A and return a list containing all the frequencies.
+
+
+Problem Constraints
+1 <= |A| <= 105
+1 <= |B| <= 105
+1 <= A[i] <= 105
+1 <= B[i] <= 105
+
+
+Input Format
+First argument A is an array of integers.
+Second argument B is an array of integers denoting the queries.
+
+
+Output Format
+Return an array of integers containing frequency of the each element in B.
+
+
+Example Input
+Input 1:
+A = [1, 2, 1, 1]
+B = [1, 2]
+Input 2:
+A = [2, 5, 9, 2, 8]
+B = [3, 2]
+
+
+Example Output
+Output 1:
+[3, 1]
+Output 2:
+[0, 2]
+
+
+Example Explanation
+For Input 1:
+The frequency of 1 in the array A is 3.
+The frequency of 2 in the array A is 1.
+For Input 2:
+The frequency of 3 in the array A is 0.
+The frequency of 2 in the array A is 2
+
+--------------------------------------------------------------------------------------
+
+2. Problem Description
+Given an array of integers A, find and return whether the given array contains a non-empty subarray with a sum equal to 0.
+
+If the given array contains a sub-array with sum zero return 1, else return 0.
+
+
+
+Problem Constraints
+1 <= |A| <= 100000
+
+-10^9 <= A[i] <= 10^9
+
+
+
+Input Format
+The only argument given is the integer array A.
+
+
+
+Output Format
+Return whether the given array contains a subarray with a sum equal to 0.
+
+
+
+Example Input
+Input 1:
+
+ A = [1, 2, 3, 4, 5]
+Input 2:
+
+ A = [4, -1, 1]
+
+
+Example Output
+Output 1:
+
+ 0
+Output 2:
+
+ 1
+
+
+Example Explanation
+Explanation 1:
+
+ No subarray has sum 0.
+Explanation 2:
+
+ The subarray [-1, 1] has sum 0.
+
+------------------------------------------------------------------------------------------------------
+IMPORTANT
+3. Problem Description
+Given an array A of N integers.
+
+Find the count of the subarrays in the array which sums to zero. Since the answer can be very large, return the remainder on dividing the result with 109+7
+
+
+Problem Constraints
+1 <= N <= 105
+-109 <= A[i] <= 109
+
+
+Input Format
+Single argument which is an integer array A.
+
+
+Output Format
+Return an integer.
+
+
+Example Input
+Input 1:
+
+ A = [1, -1, -2, 2]
+Input 2:
+
+ A = [-1, 2, -1]
+
+
+Example Output
+Output 1:
+
+3
+Output 2:
+
+1
+
+
+Example Explanation
+Explanation 1:
+
+ The subarrays with zero sum are [1, -1], [-2, 2] and [1, -1, -2, 2].
+Explanation 2:
+
+ The subarray with zero sum is [-1, 2, -1].
+
+--------------------------------------------------------------------------------------------------------------------------
+IMPORTANT --> GS
+4. Problem Description
+Given an array A of N integers.
+Find the length of the longest subarray in the array which sums to zero.
+
+Note :
+while we A[i] multiple times, it may cross the range of integer, so wisely select data type for any operations.
+
+
+
+Problem Constraints
+1 <= N <= 105
+-109 <= A[i] <= 109
+
+
+Input Format
+Single argument which is an integer array A.
+
+
+Output Format
+Return an integer.
+
+
+Example Input
+Input 1:
+
+ A = [1, -2, 1, 2]
+Input 2:
+
+ A = [3, 2, -1]
+
+
+Example Output
+Output 1:
+
+3
+Output 2:
+
+0
+
+
+Example Explanation
+Explanation 1:
+
+ [1, -2, 1] is the largest subarray which sums up to 0.
+Explanation 2:
+
+ No subarray sums up to 0.
