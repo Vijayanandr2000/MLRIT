@@ -1,0 +1,179 @@
+1. Problem Description
+Given an integer A, you have to find the Ath Perfect Number.
+
+A Perfect Number has the following properties:
+
+It comprises only 1 and 2.
+The number of digits in a Perfect number is even.
+It is a palindrome number.
+For example, 11, 22, 112211 are Perfect numbers, where 123, 121, 782, 1 are not.
+
+
+
+Problem Constraints
+1 <= A <= 100000
+
+
+
+Input Format
+The only argument given is an integer A.
+
+
+
+Output Format
+Return a string that denotes the Ath Perfect Number.
+
+
+
+Example Input
+Input 1:
+
+ A = 2
+Input 2:
+
+ A = 3
+
+
+Example Output
+Output 1:
+
+ 22
+Output 2:
+
+ 1111
+
+
+Example Explanation
+Explanation 1:
+
+First four perfect numbers are:
+1. 11
+2. 22
+3. 1111
+4. 1221
+Return the 2nd Perfect number.
+Explanation 2:
+
+First four perfect numbers are:
+1. 11
+2. 22
+3. 1111
+4. 1221
+Return the 3rd Perfect number.
+
+2. TODO
+Problem Description
+Given an array of integers A. There is a sliding window of size B, moving from the very left of the array to the very right. You can only see the B numbers in the window. Each time the sliding window moves rightwards by one position. You have to find the maximum for each window.
+
+Return an array C, where C[i] is the maximum value in the array from A[i] to A[i+B-1].
+
+Refer to the given example for clarity.
+
+NOTE: If B > length of the array, return 1 element with the max of the array.
+
+
+
+Problem Constraints
+1 <= |A|, B <= 106
+
+
+
+Input Format
+The first argument given is the integer array A.
+
+The second argument given is the integer B.
+
+
+
+Output Format
+Return an array C, where C[i] is the maximum value of from A[i] to A[i+B-1].
+
+
+
+Example Input
+Input 1:
+
+ A = [1, 3, -1, -3, 5, 3, 6, 7]
+ B = 3
+Input 2:
+
+ A = [1, 2, 3, 4, 2, 7, 1, 3, 6]
+ B = 6
+
+
+Example Output
+Output 1:
+
+ [3, 3, 5, 5, 6, 7]
+Output 2:
+
+ [7, 7, 7, 7]
+
+
+Example Explanation
+Explanation 1:
+
+ Window position     | Max
+ --------------------|-------
+ [1 3 -1] -3 5 3 6 7 | 3
+ 1 [3 -1 -3] 5 3 6 7 | 3
+ 1 3 [-1 -3 5] 3 6 7 | 5
+ 1 3 -1 [-3 5 3] 6 7 | 5
+ 1 3 -1 -3 [5 3 6] 7 | 6
+ 1 3 -1 -3 5 [3 6 7] | 7
+Explanation 2:
+
+ Window position     | Max
+ --------------------|-------
+ [1 2 3 4 2 7] 1 3 6 | 7
+ 1 [2 3 4 2 7 1] 3 6 | 7
+ 1 2 [3 4 2 7 1 3] 6 | 7
+ 1 2 3 [4 2 7 1 3 6] | 7
+
+3. Problem Description
+Given an integer, A. Find and Return first positive A integers in ascending order containing only digits 1, 2, and 3.
+
+NOTE: All the A integers will fit in 32-bit integers.
+
+
+
+Problem Constraints
+1 <= A <= 29500
+
+
+
+Input Format
+The only argument given is integer A.
+
+
+
+Output Format
+Return an integer array denoting the first positive A integers in ascending order containing only digits 1, 2 and 3.
+
+
+
+Example Input
+Input 1:
+
+ A = 3
+Input 2:
+
+ A = 7
+
+
+Example Output
+Output 1:
+
+ [1, 2, 3]
+Output 2:
+
+ [1, 2, 3, 11, 12, 13, 21]
+
+
+Example Explanation
+Explanation 1:
+
+ Output denotes the first 3 integers that contains only digits 1, 2 and 3.
+Explanation 2:
+
+ Output denotes the first 7 integers that contains only digits 1, 2 and 3.

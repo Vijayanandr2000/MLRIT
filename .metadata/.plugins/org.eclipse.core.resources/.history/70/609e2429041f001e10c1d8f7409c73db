@@ -1,0 +1,21 @@
+package busRes;
+
+import java.util.*;
+
+public class Booking {
+	String name;
+	int busNo;
+	String date;
+	
+	Booking(Scanner sc){
+		System.out.println("Enter Passenger Name: ");
+		name = sc.next();
+		
+		System.out.println("Enter Bus no: ");
+		busNo = sc.nextInt();
+		
+		System.out.println("Enter Date in dd-mm-yyyy");
+		date = sc.next();
+		
+	}
+}
